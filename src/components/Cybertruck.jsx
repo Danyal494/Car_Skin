@@ -9,11 +9,11 @@ import * as THREE from "three";
 import { extend, useFrame } from "@react-three/fiber";
 
 import { useControls } from "leva";
-import stripesFragment from "../shaders/stripes.fragment.glsl";
-import stripesVertex from "../shaders/stripes.vertex.glsl";
+import stripesFragment from "../Shaders/stripes.fragment.glsl";
+import stripesVertex from "../Shaders/stripes.vertex.glsl";
 
-import disksFragment from "../shaders/disks.fragments.glsl";
-import disksVertex from "../shaders/disks.vertex.glsl";
+import disksFragment from "../Shaders/disks.fragments.glsl";
+import disksVertex from "../Shaders/disks.vertex.glsl";
 
 
   // Define the shader material
